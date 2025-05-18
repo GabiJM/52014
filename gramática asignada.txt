@@ -1,0 +1,47 @@
+Pasa esto a ANTLR4:
+programa: instrucciones;
+instrucciones:
+    instrucción
+    | instrucciones instrucción
+    ;
+instruccion: bucle;
+bucle:
+    "do" "{" sentencia "}" "while" "(" condicion ")" ";"
+    ;
+sentencia:
+    salida
+    | salida sentencia
+    | terminar
+    ;
+salida:
+    "puts" "(" cadena ")" ";"
+    ;
+terminar:
+    "break" ";"
+    ;
+condicion:
+    "0"
+    | "1"
+    ;
+cadena:
+    "\"" caracteres "\"""
+    ;
+caracteres:
+    carácter
+    | caracteres carácter
+    ;
+caracter:
+    letra
+    | digito
+    | símbolo
+    ;
+letra:
+    "a" ... "z"
+    | "A" ... "Z"
+    ;
+dígito:
+    "0" ... "9"
+    ;
+símbolo:
+    "." | "," | "!" | "?" | ":" | ";" | """
+    ;
