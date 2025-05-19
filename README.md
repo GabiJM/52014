@@ -38,7 +38,7 @@ Como usar el prográma:
 
 	npm start
 
-5. Luego te pedirá ingresar una cadena que quieras analizar.
+5. Luego te pedirá ingresar una cadena que quieras analizar. (Por ejemplo: do { puts("¡Hola! ¿Como estas?"); break; } while (1);)
 
 Salida del prográma:
 
