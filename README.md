@@ -2,7 +2,7 @@ Esta gramática define un lenguaje simple para bucles do-while con solo 3 funcio
 
 -Estructura básica de bucle:
 
-	do { ... } while (0|1);
+do { ... } while (0|1);
 
 -El cuerpo se ejecuta al menos una vez
 
@@ -10,17 +10,17 @@ Esta gramática define un lenguaje simple para bucles do-while con solo 3 funcio
 
 -Operaciones disponibles dentro del bucle:
 
-    puts("texto") --> Imprime cadenas entre comillas (soporta caracteres básicos como letras, números y símbolos comunes)
+puts("texto") --> Imprime cadenas entre comillas (soporta caracteres básicos como letras, números y símbolos comunes)
 
-    break; --> Termina el bucle inmediatamente
+break; --> Termina el bucle inmediatamente
 
 -Reglas estrictas de sintaxis:
 
-    Requiere punto y coma (;) después de cada instrucción
+Requiere punto y coma (;) después de cada instrucción
 
-    Usa llaves {} para el cuerpo del bucle
+Usa llaves {} para el cuerpo del bucle
 
-    Paréntesis () para condiciones y argumentos de puts
+Paréntesis () para condiciones y argumentos de puts
 
 Como usar el prográma:
 
@@ -28,17 +28,19 @@ Como usar el prográma:
 
 2. Clona el proyecto desde el repositorio GitHub utilizando el siguiente comando:
 	
-	git clone https://github.com/GabiJM/52014.git
+		git clone https://github.com/GabiJM/52014.git
 
 3. Cambia al directorio raíz del proyecto con el comando:
 
-	cd 52014/Proyecto Node JS
+		cd 52014/Proyecto Node JS
 
 4. Inicia el prográma con el comando:
 
-	npm start
+		npm start
 
-5. Luego te pedirá ingresar una cadena que quieras analizar. (Por ejemplo: do { puts("¡Hola! ¿Como estas?"); break; } while (1);)
+5. Luego te pedirá ingresar una cadena que quieras analizar. Por ejemplo:
+
+		do { puts("¡Hola! ¿Como estas?"); break; } while (1);
 
 Salida del prográma:
 
